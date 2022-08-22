@@ -18,7 +18,7 @@ class CtrlManiac:
         self.languages_spoken = ["it_IT", "en_US", "en_GB"]
 
         self.description = (
-            "I'm currently an Artisan, soon-to-be a full-stack developer!"
+            "I'm currently an Artisan, soon-to-be a full-stack web developer!"
         )
 
         self.hobbies = [
@@ -36,7 +36,7 @@ class CtrlManiac:
 
         self.favourite_tools = [
             "poetry",  # makes it simpler to manage a python project
-            "black",  # chooses a coding style for me and makes my code pretty, also black it's my favourite colour
+            "black",  # chooses a coding style for me and makes my code pretty
             "isort",  # sorts python imports so that everything is really clear
             "flake8",  # tells me whether I've made a mistake
             "pydocstyle",  # helps me write better documentation
@@ -91,3 +91,8 @@ me.learn_new_coding_languange("Golang")
 
 Help me test my text-based game written in python!
 You can find the repository [here](https://github.com/ctrlmaniac/the-house) or you can install it via pip `pip install thehouse` and then run `thehouse` to make the game start!
+
+## Stats
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ctrlmaniac)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ctrlmaniac)](https://github.com/anuraghazra/github-readme-stats)
