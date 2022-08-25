@@ -77,7 +77,6 @@ me.greet("en_US")
 # Currently learning
 me.learn_new_coding_languange("Java")
 me.learn_new_coding_languange("Typescript")
-me.learn_new_coding_languange("Kotlin")
 ```
 
 ## Follow Me on:
