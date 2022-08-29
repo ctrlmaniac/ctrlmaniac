@@ -68,15 +68,19 @@ class CtrlManiac:
         :param language: the coding language to learn.
         """
         print(f"I'm currently studying a new coding language: {language}")
+```
 
+```
+>>> me = CtrlManiac()
 
-me = CtrlManiac()
+>>> me.greet("en_US")
+Hi! Thanks for visiting my profile! I hope you like my projects!
 
-me.greet("en_US")
+>>> me.learn_new_coding_languange("Java")
+I'm currently studying a new coding language: Java
 
-# Currently learning
-me.learn_new_coding_languange("Java")
-me.learn_new_coding_languange("Typescript")
+>>> me.learn_new_coding_languange("Typescript")
+I'm currently studying a new coding language: Typescript
 ```
 
 ## Follow Me on:
