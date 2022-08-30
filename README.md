@@ -1,9 +1,6 @@
 # Davide Di Criscito
 
 ```python
-"""Hello! This is basically me."""
-
-
 class CtrlManiac:
     """CtrlManiac because i overuse the ctrl key."""
 
@@ -27,9 +24,11 @@ class CtrlManiac:
 
         self.hobbies = [
             "coding",
+            "hiking",
             "photography",
             "watching movies & TV series",
             "listening to music",
+            "reading books and manga",
             "going out with my friends and have fun",
         ]
 
@@ -51,27 +50,22 @@ class CtrlManiac:
 
         self.IDEs = [
             "VScode",  # because it's awesome!
-            "IntelliJ Idea",  # it makes coding Java easier
         ]
 
-    def greet(self, lang) -> None:
-        """Say hi.
-
-        :param lang: the language you want me to greet you with.
-        """
-        if lang == "it_IT":
-            print(
-                "Ciao! Grazie per aver visitato il mio profilo! Spero che i miei progetti ti piacciano!"
-            )
-        else:
-            print("Hi! Thanks for visiting my profile! I hope you like my projects!")
+    def greet(self) -> None:
+        """Say hi."""
+        print(
+            f"Hi! I'm {self.name} {self.surname}, but you can call me {self.nickname}."
+        )
+        print(self.description)
+        print(f"You can know more about me by visiting my website: {self.website}")
 
     def learn_new_coding_languange(self, language) -> None:
         """Print a string that tells what new coding language I'm learning.
 
         :param language: the coding language to learn.
         """
-        print(f"I'm currently studying a new coding language: {language}")
+        print(f"I'm studying a new coding language: {language}")
 ```
 
 ## Fun Facts
@@ -84,14 +78,16 @@ Or import the package:
 >>> from ctrlmaniac import ctrlmaniac
 >>> me = ctrlmaniac.CtrlManiac()
 
->>> me.greet("en_US")
-Hi! Thanks for visiting my profile! I hope you like my projects!
+>>> me.greet()
+Hi! I'm Davide Di Criscito, but you can call me Dave.
+I'm currently an Artisan, soon-to-be a full-stack web developer!
+You can know more about me by visiting my website: https://ctrlmaniac.me
 
 >>> me.learn_new_coding_languange("Java")
-I'm currently studying a new coding language: Java
+I'm studying a new coding language: Java
 
 >>> me.learn_new_coding_languange("Typescript")
-I'm currently studying a new coding language: Typescript
+I'm studying a new coding language: Typescript
 ```
 
 ## Follow Me on:
