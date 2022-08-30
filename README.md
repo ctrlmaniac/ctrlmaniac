@@ -68,7 +68,7 @@ class CtrlManiac:
         print(f"I'm studying a new coding language: {language}")
 ```
 
-## Fun Facts
+## Fun Fact
 
 You can install this package via pip by running `pip install ctrlmaniac` and then excecute the program by typing into your terminal `python -m ctrlmaniac` and see the output!
 
