@@ -21,6 +21,8 @@ class CtrlManiac:
             "I'm currently an Artisan, soon-to-be a full-stack web developer!"
         )
 
+        self.website = "https://ctrlmaniac.me"
+
         self.hobbies = [
             "coding",
             "photography",
