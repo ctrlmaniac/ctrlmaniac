@@ -6,9 +6,6 @@ authors = ["Davide Di Criscito <davide.dicriscito@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 
-[tool.poetry.scripts]
-thehouse = "ctrlmaniac.ctrlmaniac"
-
 [tool.poetry.dependencies]
 python = "^3.10"
 
