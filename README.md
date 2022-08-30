@@ -1,3 +1,5 @@
+# Davide Di Criscito
+
 ```python
 """Hello! This is basically me."""
 
@@ -72,8 +74,15 @@ class CtrlManiac:
         print(f"I'm currently studying a new coding language: {language}")
 ```
 
+## Fun Facts
+
+You can install this package via pip by running `pip install ctrlmaniac` and then excecute the program by typing into your terminal `python -m ctrlmaniac` and see the output!
+
+Or import the package:
+
 ```
->>> me = CtrlManiac()
+>>> from ctrlmaniac import ctrlmaniac
+>>> me = ctrlmaniac.CtrlManiac()
 
 >>> me.greet("en_US")
 Hi! Thanks for visiting my profile! I hope you like my projects!
@@ -96,10 +105,6 @@ I'm currently studying a new coding language: Typescript
 
 Help me test my text-based game written in python!
 You can find the repository [here](https://github.com/ctrlmaniac/the-house) or you can install it via pip `pip install thehouse` and then run `thehouse` to make the game start!
-
-## Fun Facts
-
-You can install this package via pip by running `pip install ctrlmaniac` and then excecute the program by typing into your terminal `python -m ctrlmaniac`! Enjoy!
 
 ## Stats
 
