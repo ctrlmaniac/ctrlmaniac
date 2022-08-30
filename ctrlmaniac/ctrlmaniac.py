@@ -66,3 +66,8 @@ class CtrlManiac:
         :param language: the coding language to learn.
         """
         print(f"I'm studying a new coding language: {language}")
+
+
+if "__name__" == "__main__":
+    ctrlmaniac = CtrlManiac()
+    ctrlmaniac.greet()
