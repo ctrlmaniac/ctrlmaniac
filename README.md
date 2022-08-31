@@ -102,6 +102,8 @@ I'm studying a new coding language: Typescript
 Help me test my text-based game written in python!
 You can find the repository [here](https://github.com/ctrlmaniac/the-house) or you can install it via pip `pip install thehouse` and then run `thehouse` to make the game start!
 
+Or you can play it with docker! Run `docker run --rm -it ctrlmaniac/thehouse`.
+
 ## Stats
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ctrlmaniac)](https://github.com/anuraghazra/github-readme-stats)
