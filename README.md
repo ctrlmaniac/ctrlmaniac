@@ -20,7 +20,10 @@ class CtrlManiac:
             "I'm currently an Artisan, soon-to-be a full-stack web developer!"
         )
 
-        self.website = "https://ctrlmaniac.me"
+        self.websites = [
+            "https://ctrlmaniac.me",
+            "https://www.linkedin.com/in/dcdavide/",
+        ]
 
         self.hobbies = [
             "coding",
@@ -35,6 +38,9 @@ class CtrlManiac:
         self.coding_languages = [
             "Python",  # I simply love it
             "JavaScript",
+            "Typescript",
+            "Java",
+            "Golang",
         ]
 
         self.favourite_tools = [
@@ -59,13 +65,6 @@ class CtrlManiac:
         )
         print(self.description)
         print(f"You can know more about me by visiting my website: {self.website}")
-
-    def learn_new_coding_languange(self, language) -> None:
-        """Print a string that tells what new coding language I'm learning.
-
-        :param language: the coding language to learn.
-        """
-        print(f"I'm studying a new coding language: {language}")
 ```
 
 ## Fun Fact
@@ -82,12 +81,6 @@ Or import the package:
 Hi! I'm Davide Di Criscito, but you can call me Dave.
 I'm currently an Artisan, soon-to-be a full-stack web developer!
 You can know more about me by visiting my website: https://ctrlmaniac.me
-
->>> me.learn_new_coding_languange("Java")
-I'm studying a new coding language: Java
-
->>> me.learn_new_coding_languange("Typescript")
-I'm studying a new coding language: Typescript
 ```
 
 ## Stats
