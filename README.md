@@ -77,7 +77,7 @@ Or import the package:
 
 >>> me.greet()
 Hi! I'm Davide Di Criscito, but you can call me Dave.
-I'm currently an Artisan, soon-to-be a full-stack web developer!
+I'm a full-stack web developer! Eager to learn new things, always with one new project in mind, passionate about programming with computers.
 You can know more about me by visiting my website: https://ctrlmaniac.me
 ```
 
