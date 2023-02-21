@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ctrlmaniac"
-version = "0.3.0"
+version = "0.3.1"
 description = "Davide DC's GitHub Readme profile"
 authors = ["Davide Di Criscito <davide.dicriscito@gmail.com>"]
 license = "MIT"

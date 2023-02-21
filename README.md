@@ -16,9 +16,7 @@ class CtrlManiac:
 
         self.languages_spoken = ["it_IT", "en_US", "en_GB"]
 
-        self.description = (
-            "I'm currently an Artisan, soon-to-be a full-stack web developer!"
-        )
+        self.description = "I'm a full-stack web developer! Eager to learn new things, always with one new project in mind, passionate about programming with computers."
 
         self.websites = [
             "https://ctrlmaniac.me",
@@ -31,7 +29,7 @@ class CtrlManiac:
             "photography",
             "watching movies & TV series",
             "listening to music",
-            "reading books and manga",
+            "reading books and comics",
             "going out with my friends and have fun",
         ]
 
@@ -64,7 +62,7 @@ class CtrlManiac:
             f"Hi! I'm {self.name} {self.surname}, but you can call me {self.nickname}."
         )
         print(self.description)
-        print(f"You can know more about me by visiting my website: {self.website}")
+        print(f"You can know more about me by visiting my website: {self.websites[0]}")
 ```
 
 ## Fun Fact
