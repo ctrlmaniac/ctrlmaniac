@@ -1,6 +1,9 @@
 # Davide Di Criscito
 
 ```python
+"""Hello! This is basically me."""
+
+
 class CtrlManiac:
     """CtrlManiac because i overuse the ctrl key."""
 
@@ -16,7 +19,11 @@ class CtrlManiac:
 
         self.languages_spoken = ["it_IT", "en_US", "en_GB"]
 
-        self.description = "I'm a full-stack web developer! Eager to learn new things, always with one new project in mind, passionate about programming with computers."
+        self.description = (
+            "I'm a full-stack web developer! "
+            + "Eager to learn new things, always with one new project in mind, "
+            + "passionate about programming with computers."
+        )
 
         self.websites = [
             "https://ctrlmaniac.me",
